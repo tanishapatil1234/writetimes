@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <!--
-	Editorial by HTML5 UP
+	The Write Times Del Norte High School
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Editorial by HTML5 UP</title>
+		<title>The Write Times Del Norte High School</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +22,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
+									<a href="index.html" class="logo"><strong>The Write Times</strong> Del Norte High School</a>
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -36,91 +36,127 @@
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h1>Hi, I’m Editorial<br />
-											by HTML5 UP</h1>
-											<p>A free and fully responsive site template</p>
+											<h2>Welcome to</h2> 
+											<h1>The Write Times</h1>
 										</header>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+										<p>The Write Times is a Newspaper Club that aims to spread unbiased information about our expansive world. Out club contains 5 sections managed by board editors such as politics, environment/science, pop-culture, sports, and health/lifestyle. We publish monthly issues which will include interactions, visuals, and even games. </p>
 										<ul class="actions">
 											<li><a href="#" class="button big">Learn More</a></li>
 										</ul>
 									</div>
 									<span class="image object">
-										<img src="images/pic10.jpg" alt="" />
+										<div class="w3-content w3-display-container">
+											<img class="mySlides" src="images/slide1.png" style="width:100%">
+											<img class="mySlides" src="images/slide3.png" style="width:100%">
+											<img class="mySlides" src="images/slide4.png" style="width:100%">
+										    
+											<div class="button-container">
+											<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+											<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+											</div>
+										</div>
+
+										<style>
+											.button-container {
+   												 text-align: center; /* Center-align the buttons */
+   													margin-top: 10px; /* Adjust the margin for spacing */
+  											}
+										</style>
+										  
+										  <script>
+										  var slideIndex = 1;
+										  showDivs(slideIndex);
+										  
+										  function plusDivs(n) {
+											showDivs(slideIndex += n);
+										  }
+										  
+										  function showDivs(n) {
+											var i;
+											var x = document.getElementsByClassName("mySlides");
+											if (n > x.length) {slideIndex = 1}
+											if (n < 1) {slideIndex = x.length}
+											for (i = 0; i < x.length; i++) {
+											  x[i].style.display = "none";  
+											}
+											x[slideIndex-1].style.display = "block";  
+										  }
+										  </script>
 									</span>
 								</section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Erat lacinia</h2>
+										<h2>Meet Our Team</h2>
 									</header>
 									<div class="features">
 										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
+											<span ></span>
+											<div class="profile">
+												<div class="circle-image">
+												  <img src="images/tara.png" alt="Circle Image">
+												</div>
+											  
+												<div class="content">
+												  <h3>Founder/President - Tara Sehdave</h3>
+												  <p>Hi, my name is Tara. I aspire to be a lawyer and love to keep myself updated with world news. I knew others shared my love for current events, so I founded this club as a space safe for unbiased reporting.</p>
+												</div>
+											  </div>
 										</article>
+										
+										
 										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
+											<span ></span>
+											<div class="profile">
+												<div class="circle-image">
+												  <img src="images/dylan.png" alt="Circle Image">
+												</div>
+											  
+												<div class="content">
+												  <h3>Founder/President - Dylan Quan</h3>
+												  <p>Hello my name is Dylan. I love eating foreign foods which got me really interested in foreign news too. </p>
+												</div>
+											  </div>
 										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
+
 									</div>
 								</section>
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Ipsum sed dolor</h2>
+										<h2>Recent Articles</h2>
 									</header>
 									<div class="posts">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<a href="#" class="image"><img src="https://smd-cms.nasa.gov/wp-content/uploads/2023/10/51237996958-6fffc4cd41-k.jpg" alt="" /></a>
+											<h3>The Upcoming Eclipse</h3>
+											<p>Sample Text</p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<a href="#" class="image"><img src="https://smd-cms.nasa.gov/wp-content/uploads/2023/09/img-7429.webp" alt="" /></a>
+											<h3>To Study Atmosphere, NASA Rockets Will Fly into Oct. Eclipse’s Shadow</h3>
+											<p>Sample Text</p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<a href="#" class="image"><img src="https://i.guim.co.uk/img/media/c104cf5bda2953ab5889c11a636058e70139245c/0_75_2835_1701/master/2835.jpg?width=160&quality=45&auto=format&fit=max&dpr=2&s=ececdd2ea2a1f49e2b8d24586a8d8e50" alt="" /></a>
+											<h3>Aid convoy set to enter Gaza a drop in the ocean of need says WHO</h3>
+											<p>Sample Text</p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<a href="#" class="image"><img src="https://i.guim.co.uk/img/media/dc6b506c5309be3aba85453114d6fad71117f43d/425_189_1030_618/master/1030.jpg?width=620&dpr=2&s=none" alt="" /></a>
+											<h3>Biden draws direct link between Putin and Hamas as he urges aid for Israel and Ukraine</h3>
+											<p>Sample Text</p>
 											<ul class="actions">
 												<li><a href="#" class="button">More</a></li>
 											</ul>

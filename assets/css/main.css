@@ -212,6 +212,8 @@ pre {
     padding: 1em 1.5em;
     overflow-x: auto; }
 
+    
+
 hr {
   border: 0;
   border-bottom: solid 1px rgba(210, 215, 217, 0.75);
@@ -2271,3 +2273,28 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+    .profile {
+      display: flex;
+      align-items: center; /* Vertically center the content */
+    }
+    
+    .circle-image {
+      width: 150px; /* Set the width and height for the circle */
+      height: 150px;
+      border-radius: 50%; /* Makes the container a circle */
+      overflow: hidden;
+      border: 2px solid #f56a6a; /* Border color */
+      margin-right: 20px; /* Adjust the margin as needed to create space between the circle and text */
+    }
+    
+    .circle-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .content {
+      flex: 1; /* Allow the content to expand and fill the available space */
+    }
+    
